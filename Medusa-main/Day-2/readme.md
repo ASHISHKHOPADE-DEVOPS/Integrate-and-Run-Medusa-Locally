@@ -1,5 +1,4 @@
 *Integrate and Run Medusa Locally*
-September 10, 2024
 
 Medusa Setup
 Prerequisites
@@ -12,8 +11,7 @@ This will include npm (Node Package Manager).
 
 To verify installation, run:
 
-bash
-Copy code
+
 node -v
 npm -v
 
@@ -21,8 +19,7 @@ npm -v
 Medusa uses PostgreSQL as its database. Install PostgreSQL from postgresql.org and ensure it is running.
 
 Database Creation: Create a new database for Medusa. You can use the following commands:
-bash
-Copy code
+
 sudo -u postgres createdb medusa
 sudo -u postgres createuser --interactive
 
@@ -32,8 +29,7 @@ Redis is used by Medusa for caching and background job processing. Install Redis
 
 To start Redis, you can use:
 
-bash
-Copy code
+
 sudo systemctl start redis
 sudo systemctl enable redis
 
@@ -71,7 +67,7 @@ Once you have all the prerequisites installed, you can proceed with cloning the 
 
 For efficient handling, install Chocolatey to manage software and packages automatically with the command:
 
-bash
+
 Copy code
 choco install <package-name>
 Today's Task
