@@ -127,6 +127,6 @@ For efficient handling, install Chocolatey to manage software and packages autom
 
 ### Best regards,
 
-### MR_DevOps
+### Ashish Khopade
 
   
