@@ -1,4 +1,4 @@
-Integrate and Run Medusa Locally
+*Integrate and Run Medusa Locally*
 September 10, 2024
 
 Medusa Setup
@@ -110,12 +110,15 @@ curl localhost:9000/store/products
 
 
 Some of the Issues I Faced
-Installation Issues: Ensure all files mentioned in the prerequisites are installed and set up properly.
-Version Compatibility: Check if the software versions are compatible with your operating system and each other.
-PostgreSQL Credentials: Keep track of your PostgreSQL credentials for database access.
-Verify Installation: Confirm package installations with the following commands:
-bash
-Copy code
+1]Installation Issues: Ensure all files mentioned in the prerequisites are installed and set up properly.
+
+2]Version Compatibility: Check if the software versions are compatible with your operating system and each other.
+
+3]PostgreSQL Credentials: Keep track of your PostgreSQL credentials for database access.
+4]Verify Installation: Confirm package installations with the following commands:
+
+
+
 npm -v
 node -v
 psql --version
@@ -134,15 +137,18 @@ bash
 Copy code
 psql -U postgres -d medusa
 Redis
+
 Connection Verification: Test Redis connection:
 bash
 Copy code
 redis-cli ping
 Medusa CLI
+
 Version Check: Ensure Medusa CLI is installed correctly:
 bash
 Copy code
 medusa --version
+
 Common Issues
 Port Conflicts: Ensure the port Medusa is running on (e.g., 9000) is not in use by another service.
 Log Files: Check Medusa’s log files for detailed error messages if the server fails to start:
