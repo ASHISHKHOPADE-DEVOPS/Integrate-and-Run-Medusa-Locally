@@ -1,4 +1,4 @@
-# Day-2
+# Integrate and Run Medusa Locally
 **September 10, 2024**
 
 # Medusa Setup
