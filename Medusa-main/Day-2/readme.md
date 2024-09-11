@@ -119,11 +119,16 @@ npm -v
 node -v
 psql --version
 git --version
+
+
 Additional Guidance and Troubleshooting
 Node.js and npm
+
 Update Node.js: Ensure you have the latest stable version of Node.js for compatibility.
+
 Check npm Permissions: If you face permission issues, consider using nvm (Node Version Manager) for managing Node.js versions.
 PostgreSQL
+
 Check Service Status: Ensure PostgreSQL service is active and listening on the correct port:
 bash
 Copy code
